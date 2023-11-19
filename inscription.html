@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- configurations -->
+    <meta charset="utf-8">
+    <title>accueil.html</title>
+    <link rel="stylesheet" type="text/css" href="inscription.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" class="LienTitre">Accueil</a>
+            <a href="" class="LienTitre">Courses</a>
+            <a href="" class="LienTitre">Coach</a>
+            <a href="inscription.html" class="LienTitre">Inscription</a>
+        </nav>
+        <hr>
+    </header>
+    <img src="img.jpg" alt="A group of people working in digital agency">
+    <hr>
+    <form id="form">
+        <h1>Inscription</h1>
+        <table>
+            <tr>
+                <td>first name*</td>
+                <td><input type="text" minlength="3" title="champs obligatoire il doit contenir 3 caractère"></td>
+            </tr>
+            <tr>
+                <td>last name*</td>
+                <td><input type="text" required minlength="3" title="champs obligatoire il doit contenir 3 caractère"></td>
+            </tr>
+            <tr>
+                <td>adresse*</td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>phone number*</td>
+                <td><input type="number" required pattern="[0-9]{8}" title="entrer un numéro valide"></td>
+            </tr>
+            <tr>
+                <td>date of birth*</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>email*</td>
+                <td><input type="email" required title="entrer un format valide"></td>
+            </tr>
+            <tr>
+                <td>password*</td>
+                <td><input type="password" required pattern="[a-zA-Z0-9]+" title="entrer un pass valide"></td>
+            </tr>
+            <tr>
+                <td>confirm password *</td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+        <input type="submit" class="btn" value="submit">
+        <input type="reset" class="btn" value="reset">
+    </form>
+    <hr>
+    <footer>
+        <strong>Contactez Nous</strong>
+        <a href="mailto:esprit@esprit.tn" style="color: white;">email : esprit@esprit.tn</a>
+    </footer>
+</body>
+</html>

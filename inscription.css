@@ -1,0 +1,75 @@
+/* Partie 1: La mise en forme de la page */
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+}
+
+/* Partie 2: La mise en forme de la partie header */
+
+header {
+    background-color: red;
+    color: white;
+}
+
+.LienTitre {
+    color: red;
+}
+
+.LienTitre:visited {
+    color: black;
+}
+
+.LienTitre:hover {
+    color: yellow;
+}
+
+.LienTitre:active {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Partie 3: La mise en forme de la partie formulaire */
+
+h1 {
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#form {
+    width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.btn {
+    background-color: #DED983;
+    font-size: 1.2em;
+    color: #345071;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Partie 4: La mise en forme de la partie footer */
+
+footer {
+    background-color: red;
+    color: white;
+}
+/* Partie 5: Les champs de notre formulaire */
+#form input[type="text"],
+#form input[type="number"],
+#form input[type="date"],
+#form input[type="email"],
+#form input[type="password"],
+#form textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
